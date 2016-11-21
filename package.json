@@ -1,0 +1,38 @@
+{
+  "name": "postcss-inject-css-variables",
+  "description": "Inject global CSS variables into your files via PostCSS",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha test.js"
+  },
+  "keywords": [
+    "postcss",
+    "postcss-plugin",
+    "css",
+    "variables"
+  ],
+  "homepage": "https://github.com/pierrecholhot/postcss-inject-css-variables",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pierrecholhot/postcss-inject-css-variables.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pierrecholhot/postcss-inject-css-variables/issues"
+  },
+  "author": {
+    "name": "Pierre Cholhot",
+    "email": "hello@pierre.cx",
+    "url": "pierre.cx"
+  },
+  "license": "WTFPL",
+  "devDependencies": {
+    "assume": "^1.4.1",
+    "istanbul": "^0.4.2",
+    "mocha": "^3.1.2",
+    "postcss": "^5.0.19"
+  },
+  "peerDependencies": {
+    "postcss": "*"
+  }
+}
