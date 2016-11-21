@@ -14,5 +14,5 @@ describe(name, () => {
     .equals(
       ':root {\n    --colorAlpha: #000;\n    --colorBeta: #111\n}\n/* code */'
     )
-  });
-});
+  })
+})

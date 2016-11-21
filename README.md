@@ -2,13 +2,13 @@
 
 Inject global CSS variables into your files via PostCSS
 
-Transform
+__Transform__
 
 ``` css
 /* Your CSS */
 ```
 
-to
+__to__
 
 ``` css
 :root {
@@ -18,7 +18,7 @@ to
 /* Your CSS */
 ```
 
-using
+__using__
 
 ``` js
 module.exports = {
@@ -26,6 +26,7 @@ module.exports = {
   colorBeta: '#111'
 }
 ```
+_and some PostCSS magic_
 
 ## Installation
 
@@ -38,26 +39,26 @@ npm i -D postcss-inject-css-variables
 ### with node
 
 ``` js
-const postcss = require('postcss');
-const injectVariables = require('postcss-inject-css-variables');
+const postcss = require('postcss')
+const injectVariables = require('postcss-inject-css-variables')
 
-const fs = require('fs');
+const fs = require('fs')
 
-const mycss = fs.readFileSync('input.css', 'utf8');
+const mycss = fs.readFileSync('input.css', 'utf8')
 
 const variables = {
   colorAlpha: '#000',
   colorBeta: '#111'
-};
+}
 
 // Process your CSS with postcss-inject-css-variables
 const output = postcss([
-        injectVariables(variables)
-    ])
-    .process(mycss)
-    .css;
+    injectVariables(variables)
+  ])
+  .process(mycss)
+  .css
 
-console.log(output);
+console.log(output)
 
 // :root {
 //   --colorAlpha: #000;
@@ -68,19 +69,17 @@ console.log(output);
 
 ### with webpack
 
-
 #### webpack.config.js
 
 ``` js
-const vars = require('./variables.js')
+const variables = require('./variables.js')
 
 const config = {
   postcss: function (webpack) {
     return [
-      require('postcss-inject-css-variables')(vars),
-      ...,
-      ...,
-      ...,
+      // plugins..
+      require('postcss-inject-css-variables')(variables),
+      // more plugins..
     ]
   },
 }
