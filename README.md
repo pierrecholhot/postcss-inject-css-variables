@@ -1,4 +1,5 @@
-# PostCSS Inject CSS Variables
+# PostCSS Inject CSS Variables [![Build Status](https://travis-ci.org/pierrecholhot/postcss-inject-css-variables.svg?branch=master)](https://travis-ci.org/pierrecholhot/postcss-inject-css-variables)
+
 
 Inject global CSS variables into your files via PostCSS
 
