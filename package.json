@@ -26,6 +26,9 @@
     "url": "pierre.cx"
   },
   "license": "WTFPL",
+  "engines": {
+    "node": ">=6"
+  },
   "devDependencies": {
     "assume": "^1.4.1",
     "istanbul": "^0.4.2",
