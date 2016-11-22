@@ -1,0 +1,17 @@
+version: 2
+groups:
+  code-review:
+    approve_by_comment:
+      approve_regex: ^Approved
+      enabled: true
+      reject_regex: ^Rejected
+    required: 1
+    reset_on_push:
+      enabled: false
+    users:
+      - pierrecholhot
+    always_pending:
+      title_regex: '(WIP|wip)'
+      labels:
+        - wip
+      explanation: 'This PR is a work in progress...'
