@@ -1,5 +1,6 @@
-# PostCSS Inject CSS Variables [![Build Status](https://travis-ci.org/pierrecholhot/postcss-inject-css-variables.svg?branch=master)](https://travis-ci.org/pierrecholhot/postcss-inject-css-variables)
+# PostCSS Inject CSS Variables [![Build Status](https://travis-ci.org/pierrecholhot/postcss-inject-css-variables.svg?branch=master)](https://travis-ci.org/pierrecholhot/postcss-inject-css-variables) [![GitHub tag](https://img.shields.io/github/tag/pierrecholhot/postcss-inject-css-variables.svg)]() [![GitHub issues](https://img.shields.io/github/issues/pierrecholhot/postcss-inject-css-variables.svg)]()  [![Licence](https://img.shields.io/npm/l/postcss-inject-css-variables.svg)]()
 
+[![NPM](https://nodei.co/npm/postcss-inject-css-variables.png?downloads=true&stars=true)](https://nodei.co/npm/postcss-inject-css-variables/)
 
 Inject global CSS variables into your files via PostCSS
 
