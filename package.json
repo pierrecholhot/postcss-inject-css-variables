@@ -1,7 +1,7 @@
 {
   "name": "postcss-inject-css-variables",
   "description": "Inject global CSS variables into your files via PostCSS",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "scripts": {
     "test": "istanbul cover _mocha test.js"
